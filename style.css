@@ -1,0 +1,142 @@
+.container{
+    /* background-color: black; */
+    background-image:("./Asset/front background.jpeg");
+    background-size: cover;
+    height: 100rem;
+    width: 100%;
+}
+.main{
+    background-image:url(./Asset/front\ background.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:49%;
+    color: white;
+   
+
+}
+*{
+    filter: grayscale(20%);
+}
+.logo{
+   margin-left: 17rem;
+   height: 12rem;
+  
+ 
+}
+.main h1{
+    width: 28rem;
+    margin-left: 17rem;
+    font-size: 4rem;
+    height: 6rem;
+}
+.main p{
+    width: 28rem;
+    margin-left: 17rem;
+    font-size: 1.3rem;
+    padding-top: 1rem;
+}
+.main button{
+    margin-left: 17rem;
+    width: 28rem;
+    height: 3.2rem;
+    font-size: 1.8rem;
+    background-color: rgb(193, 137, 245);
+    border-bottom: 1px solid rgb(193, 137, 245) ;
+}
+.main button:hover{
+    background-color:  rgb(131, 13, 241);
+}
+.brand{
+    background-color: rgb(173, 171, 171);
+    margin-left: 10rem;
+    margin-right: 10rem;
+   
+    margin-top: 5rem;
+    height: 5.9rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    font-size: 1.3rem;
+    box-shadow: inset;
+}
+.item{
+    color: black;
+   
+}
+.item h1{
+    margin-left: 30.5rem;
+}
+.item2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 6rem;
+}
+.card{
+    height: 15rem;
+    width: 15rem;
+   
+    
+    /* border-radius: 360px; */
+}
+.card img{
+    border: 1px solid rgb(184, 179, 179);
+    border-radius: 30rem;
+    width: 10rem;
+    height: 10rem;
+}.card p{
+    width: 18rem;
+    margin-left: -1rem;
+    
+}.press{
+    background-color: aliceblue;
+    color: black;
+}
+.press h1{
+    margin-left: 34rem;
+}
+.lorem{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+    
+}
+.lorem p{
+    width: 90rem;
+    font-size: 1.3rem;
+    margin-right: 10rem;
+   
+    
+}
+.feature{
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    font-size: 1.3rem;
+    box-shadow: inset;
+}
+.all{
+    color: black;
+ 
+
+}
+.all h1{
+    margin-left: 34rem;
+
+}
+footer {
+    text-align: center;
+    list-style: none;
+    background-color: rgb(112, 113, 114);
+    margin-top: 25rem;
+    height: 3rem;
+    padding-top: 0.1rem;
+    /* margin-top: 5PX; */
+}
+
